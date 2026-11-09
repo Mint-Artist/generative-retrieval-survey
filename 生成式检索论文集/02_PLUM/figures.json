@@ -1,0 +1,88 @@
+[
+ {
+  "n": 1,
+  "caption": "Figure 1 . Illustration of our Semantic ID model. It takes two multi-modal video embeddings, encodes them, and compresses the result into a quantized ID using a residual quantizer. This ID is trained to both reconstruct the original inputs and semantically cluster co-occurring videos using a contrastive loss.",
+  "files": [
+   {
+    "path": "生成式检索论文集/02_PLUM/fig/fig1.png",
+    "w": "310",
+    "h": "166"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "caption": "Figure 2 . Illustration of Generative Retrieval for next video recommendation. The input prompt is a sequence of interleaved SID tokens, text and custom tokens for numerical features.",
+  "files": [
+   {
+    "path": "生成式检索论文集/02_PLUM/fig/fig2.png",
+    "w": "429",
+    "h": "278"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "caption": "Figure 3 . 8-th Day Recall@10 and training loss vs retrieval SFT training step.",
+  "files": [
+   {
+    "path": "生成式检索论文集/02_PLUM/fig/fig3_0.png",
+    "w": "234",
+    "h": "128"
+   },
+   {
+    "path": "生成式检索论文集/02_PLUM/fig/fig3_1.png",
+    "w": "234",
+    "h": "128"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "caption": "Figure 4. Training and evaluation loss variation as we scale up training Iso-FLOPS.",
+  "files": [
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig4_0.png",
+    "w": "234",
+    "h": "167"
+   },
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig4_1.png",
+    "w": "234",
+    "h": "165"
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "caption": "Figure 5. Training and evaluation Recall@10 variation as we scale up training Iso-FLOPS.",
+  "files": [
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig5_0.png",
+    "w": "234",
+    "h": "168"
+   },
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig5_1.png",
+    "w": "234",
+    "h": "167"
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "caption": "Figure 6. Iso-FLOPS curves. We evaluate training loss and evaluation Recall@10 at various fixed Iso-FLOPS budgets, selecting the appropriate number of steps for each model size.",
+  "files": [
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig6_0.png",
+    "w": "234",
+    "h": "229"
+   },
+   {
+    "path": "/Users/awh/work/生成式检索/生成式检索论文集/02_PLUM/fig/fig6_1.png",
+    "w": "234",
+    "h": "146"
+   }
+  ]
+ }
+]

@@ -1,0 +1,46 @@
+[
+ {
+  "n": 1,
+  "caption": "Figure 1. Books mainly consist of three types of information: (1) metadata, which includes details like the title, author, and publisher; (2) the main text, which constitutes the core content of the book; and (3) the outline, which shows the hierarchical structure and relationships between the chapters and sections. Book resource",
+  "files": [
+   {
+    "path": "生成式检索论文集/03_GBS/fig/fig1.png",
+    "w": "191",
+    "h": "220"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "caption": "Figure 2. Based on an encoder-decoder architecture, GBS comprises two components: (1) Data augmentation (orange dashed rectangles), which includes coverage-promoting book identifier augmentation for indexing and diverse-enhanced query augmentation for retrieval, generating multiple data pairs. (2) Outline-oriented book encoding, which includes outline-oriented bi-level positional encoding (green dashed rectangles) and outline-oriented retentive attention (blue dashed rectangles), to encode the long book contents based on hierarchical information. (The figure should be viewed in color.) Overview",
+  "files": [
+   {
+    "path": "生成式检索论文集/03_GBS/fig/fig2.png",
+    "w": "429",
+    "h": "240"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "caption": "Figure 3. The performance, in terms of Hits@10, of GBS P and RIPOR with different input lengths on the BBS 40K dataset.",
+  "files": [
+   {
+    "path": "生成式检索论文集/03_GBS/fig/fig3.png",
+    "w": "229",
+    "h": "117"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "caption": "Figure 4. The performance, in terms of Hits@10, of GBS P with different numbers of diversity-enhanced pseudo-queries, i.e., X X , on the BBS 40K dataset.",
+  "files": [
+   {
+    "path": "生成式检索论文集/03_GBS/fig/fig4.svg",
+    "w": "229",
+    "h": "122"
+   }
+  ]
+ }
+]

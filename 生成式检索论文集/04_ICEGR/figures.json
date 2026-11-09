@@ -1,0 +1,46 @@
+[
+ {
+  "n": 1,
+  "caption": "Figure 1. Traditional MCA versus generative retrieval. Traditional MCA\nrecalls, filters, and ranks product candidates, whereas ICEGR directly\ngenerates the top-k products. The two candidate sets are then merged to\nform the final results list. Comparison of traditional MCA and generative retrieval.\nTraditional MCA recalls, filters, and ranks product candidates. ICEGR\ndirectly generates top-k products. The two candidate sets are merged into\nthe final results list.",
+  "files": [
+   {
+    "path": "生成式检索论文集/04_ICEGR/fig/fig1.png",
+    "w": "476",
+    "h": "196"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "caption": "Figure 2. Overview of ICEGR, which enforces query-intent alignment throughout generative retrieval in three stages: (a) IA-SID constructs semantic IDs aligned with search intent; (b) SQE-SFT expands sparse real query-to-SID supervision with multi-granularity synthetic queries, followed by fine-tuning on real queries under the same objective; and (c) RCPO learns business-aware preferences among semantically relevant candidates through margin-adaptive preference optimization. Overview of the three-stage ICEGR framework.\nIA-SID aligns product semantic IDs with search intent using\nquery-product interaction signals. SQE-SFT constructs\nmulti-granularity synthetic queries from catalog semantics, trains on\nsynthetic query-to-SID pairs, and then fine-tunes on real query-to-SID\ninteractions using the same objective. RCPO combines semantic\nrelevance with behavioral and business signals to learn business-aware\npreferences while preserving query-intent alignment.",
+  "files": [
+   {
+    "path": "生成式检索论文集/04_ICEGR/fig/fig2.png",
+    "w": "476",
+    "h": "422"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "caption": "Figure 3. Sensitivity analysis of the query-intent fusion weight λ . Sensitivity of model performance to the query-intent fusion\nweight lambda. The results show how retrieval performance changes as the\nfusion weight varies.",
+  "files": [
+   {
+    "path": "生成式检索论文集/04_ICEGR/fig/fig3.png",
+    "w": "476",
+    "h": "381"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "caption": "Figure 4. Further analysis of ICEGR: (a) SQE-SFT gains across\nitem-popularity groups; (b) Recall@20 scaling with backbone size. Two-panel analysis of ICEGR retrieval performance.\nPanel (a) compares SQE-SFT gains across item-popularity groups.\nPanel (b) shows Recall@$20$ for different backbone sizes.",
+  "files": [
+   {
+    "path": "生成式检索论文集/04_ICEGR/fig/fig4.png",
+    "w": "476",
+    "h": "190"
+   }
+  ]
+ }
+]

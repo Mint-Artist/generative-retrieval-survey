@@ -1,0 +1,35 @@
+[
+ {
+  "n": 1,
+  "caption": "Figure 1: Training framework of UniGD. HAM-G and HAM-D jointly optimize the generative and CAM-based discrimination, while CAGE coordinates their gradients through a three-stage training scheme.",
+  "files": [
+   {
+    "path": "生成式检索论文集/05_UniGD/fig/fig1.png",
+    "w": "698",
+    "h": "340"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "caption": "Figure 2: Online serving pipeline of UniGD in industrial search advertising.",
+  "files": [
+   {
+    "path": "生成式检索论文集/05_UniGD/fig/fig2.png",
+    "w": "698",
+    "h": "265"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "caption": "Figure 3: Training dynamics of UniGD. (a) Training loss across the\nthree stages. (b) Generative and discriminative accuracy\nduring joint training with and without CAGE.",
+  "files": [
+   {
+    "path": "生成式检索论文集/05_UniGD/fig/fig3.svg",
+    "w": "698",
+    "h": "286"
+   }
+  ]
+ }
+]

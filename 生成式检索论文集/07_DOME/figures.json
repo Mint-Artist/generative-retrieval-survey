@@ -1,0 +1,68 @@
+[
+  {
+    "n": 1,
+    "caption": "Figure 1. Behavioral analysis of the initial and new documents over the NQ dataset ( Kwiatkowski et al., 2019 ) using a hierarchical k-means-based docID GR model ( Tay et al., 2022 ) .\nThe model is trained on the initial document set, and docIDs for new documents are assigned using the same k-means clustering procedure.\n(a) T-SNE ( Maaten and Hinton, 2008 ) visualization of intermediate representations, where different colors denote different docID prefixes (i.e., 10, 30, 50), with each prefix corresponding to a specific document type. Squares represent initial documents, and circles represent new documents.\n(b) Retrieval performance (Recall@1 and Recall@100) on the initial and new document sets.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig1.png",
+        "w": "476",
+        "h": "265"
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "caption": "Figure 2. Percentage of pairwise cosine similarity of edit vector δ across GR edit requests applied to the GR method ( Tay et al., 2022 ) on NQ ( Kwiatkowski et al., 2019 ) . Yellow denotes pairs with different target docID, blue denotes pairs with the same target docID.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig2.png",
+        "w": "476",
+        "h": "288"
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "caption": "Figure 3. An overview of the proposed DOME framework.\n(a) A patching technique is used to diagnose the model and locate the critical layers responsible for docID mapping.\n(b) Our hybrid-label adaptive training strategy is employed to compute diverse and effective edit vectors ( δ ) for the new mappings.\nFor clarity, the diagram retains only the crucial W_out component from the FFN layer.\n(c) These edit vectors are then used to construct an update matrix ( Δ ), which is applied to the crucial layer parameters ( W_out ) to inject the new docID mapping.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig3.svg",
+        "w": "443",
+        "h": "197"
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "caption": "Figure 4. Percentage of pairwise cosine similarity of edit vector δ across GR edit requests on NQ. Yellow denotes pairs with different target docID, blue denotes pairs with the same target docID.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig4.png",
+        "w": "452",
+        "h": "268"
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "caption": "Figure 5. Accuracies of average patching across decoder layers for predicting docID tokens at positions 0–3 on NQ.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig5.png",
+        "w": "476",
+        "h": "1079"
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "caption": "Figure 6. Performance over initial documents (left) and newly added documents (right) with a varying number of new documents on NQ.",
+    "files": [
+      {
+        "path": "生成式检索论文集/07_DOME/fig/fig6.png",
+        "w": "476",
+        "h": "191"
+      }
+    ]
+  }
+]

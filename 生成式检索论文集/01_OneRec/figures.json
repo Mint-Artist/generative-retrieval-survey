@@ -1,0 +1,68 @@
+[
+ {
+  "n": 1,
+  "caption": "Figure 1. (a) Our proposed unified architecture for end-to-end generation. (b) A typical cascade ranking system, which includes three stages from the bottom to the top: Retrieval, Pre-ranking, and Ranking.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig1.png",
+    "w": "462",
+    "h": "174"
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "caption": "Figure 2. The overall framework of OneRec, consists of two stages: (i) the session training stage which train OneRec with session-wise data; (ii) the IPA stage which utilizes iterative direct preference optimization with self-hard negatives.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig2.png",
+    "w": "452",
+    "h": "266"
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "caption": "Figure 3. Framework of Online Deployment of OneRec.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig3.svg",
+    "w": "471",
+    "h": "137"
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "caption": "Figure 4. The ablation study on DPO sample ratio r DPO r_{\\rm DPO} . The results indicate that a 1% ratio of DPO training leads to significant gains but further increase the sample ratio results in limited improvements.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig4.svg",
+    "w": "234",
+    "h": "156"
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "caption": "Figure 5. The visualization of the probability distribution of the softmax output for each layer of the semantic ID. The red star represents the sematic ID of item which has the highest reward value.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig5.png",
+    "w": "471",
+    "h": "130"
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "caption": "Figure 6. Scalability of OneRec on model scaling. The results show that OneRec constantly benefits from performance improvement when the parameters are scaled up.",
+  "files": [
+   {
+    "path": "生成式检索论文集/01_OneRec/fig/fig6.jpg",
+    "w": "234",
+    "h": "180"
+   }
+  ]
+ }
+]

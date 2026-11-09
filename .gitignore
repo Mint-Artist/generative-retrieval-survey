@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 中间产物
+render/
+*.log
